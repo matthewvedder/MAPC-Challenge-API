@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  def is_user?
+  def create
     if User.find_by(params[:email])
       render json: { email_exists: true }
     else
@@ -8,6 +8,7 @@ class UsersController < ApplicationController
         render json: { email_exists: false }
       else
         render json: { error: 'could not save new user data' }
+      end
     end
   end
 
