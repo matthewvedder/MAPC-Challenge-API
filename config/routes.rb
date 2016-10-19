@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  post 'users', to: 'users#create'
+  match '/users' => 'users#create', via: [ :post, :options ]
 end
