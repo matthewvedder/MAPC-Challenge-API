@@ -1,24 +1,10 @@
-# README
+# MAPC Challenge API
+This API is hosted on Heroku [here.](https://shielded-citadel-11180.herokuapp.com/)
+For more information please see the [MAPC-Challenge documentaion.](https://github.com/veddster/MAPC-Challenge)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Tech:
+  * Rails 5
+  * PostgreSQL
+  * rack-cors
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
